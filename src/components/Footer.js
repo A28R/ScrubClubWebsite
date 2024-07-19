@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 
 const Footer = () => {
@@ -45,16 +44,16 @@ const Footer = () => {
                         <h6 className="text-[#013289] text-xl font-bold mb-4">OUR SERVICES</h6>
                         <ul className="text-md">
                         <li className="mb-2">
-                            <Link to="#" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">Interior Cleaning</Link>
+                            <HashLink smooth to="/#services" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">Interior Cleaning</HashLink>
                         </li>
                         <li className="mb-2">
-                            <Link to="#" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">Exterior Cleaning</Link>
+                            <HashLink smooth to="/#services" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">Exterior Cleaning</HashLink>
                         </li>
                         <li className="mb-2">
-                            <Link to="#" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">Trash Cleaning</Link>
+                            <HashLink smooth to="/#services" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">Trash Cleaning</HashLink>
                         </li>
                         <li className="mb-2">
-                            <Link to="#" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">Pressure Washing</Link>
+                            <HashLink smooth to="/#services" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">Pressure Washing</HashLink>
                         </li>
                         </ul>
                     </div>
@@ -62,7 +61,7 @@ const Footer = () => {
                     {/* 4th block */}
                     <div className="col-span-12 text-center mx-auto lg:col-span-3 font-bold uppercase text-[#004AAD]">
                         <div className="text-xl mb-6">
-                            Social Media Links.
+                            Social Media Links
                         </div>
 
 
