@@ -20,6 +20,7 @@ const DemoProduct = (props) => {
 
 
     const handleChange = (e) => {
+        
         const value = e.target.value
         const checked = e.target.checked
         errors.products = []
